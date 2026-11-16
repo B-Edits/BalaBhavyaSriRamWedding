@@ -1,0 +1,91 @@
+'use client';
+
+import { motion } from 'framer-motion';
+import { ArrowUp } from 'lucide-react';
+
+export default function Footer() {
+  const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  return (
+    <footer className="section-shell footer-shell">
+      <div className="section-inner footer-inner">
+        <div className="ornament"><span>✦</span></div>
+        <p className="blessing-line">With love and blessings</p>
+        <h2>Bala Bhavya &amp; Sri Ram</h2>
+        <p className="footer-date">13 December 2026</p>
+        <p className="thanks-text">
+          Thank you for being part of our journey and for sharing in the joy of this celebration.
+          Your love and blessings mean the world to us.
+        </p>
+        <p className="family-note">[Bride's parents placeholder] &amp; [Groom's parents placeholder]</p>
+
+        <button className="back-to-top" onClick={scrollToTop} aria-label="Back to top">
+          <ArrowUp size={18} />
+          Back to top
+        </button>
+      </div>
+
+      <style jsx>{`
+        .footer-shell {
+          background: linear-gradient(180deg, rgba(100, 31, 53, 0.96), rgba(59, 18, 37, 0.98));
+          color: rgba(255, 248, 240, 0.96);
+          padding-bottom: 5rem;
+        }
+
+        .footer-inner {
+          text-align: center;
+          max-width: 840px;
+        }
+
+        .blessing-line {
+          margin: 0.25rem 0 0.2rem;
+          color: rgba(232, 198, 189, 0.9);
+          letter-spacing: 0.2rem;
+          text-transform: uppercase;
+          font-size: 0.74rem;
+        }
+
+        .footer-inner h2 {
+          margin: 0;
+          font-family: var(--font-heading);
+          font-size: clamp(2.5rem, 5vw, 5rem);
+          line-height: 0.9;
+          color: var(--ivory);
+        }
+
+        .footer-date {
+          margin: 0.8rem 0 1.2rem;
+          letter-spacing: 0.1rem;
+          text-transform: uppercase;
+          color: var(--blush);
+        }
+
+        .thanks-text,
+        .family-note {
+          margin: 0 auto;
+          max-width: 700px;
+          line-height: 1.9;
+          color: rgba(255, 248, 240, 0.8);
+        }
+
+        .family-note {
+          margin-top: 1rem;
+          color: rgba(232, 198, 189, 0.8);
+        }
+
+        .back-to-top {
+          margin-top: 1.8rem;
+          border-radius: 999px;
+          border: 1px solid rgba(184, 149, 85, 0.6);
+          background: rgba(255, 248, 240, 0.08);
+          color: var(--ivory);
+          padding: 0.8rem 1.2rem;
+          display: inline-flex;
+          align-items: center;
+          gap: 0.6rem;
+          cursor: pointer;
+        }
+      `}</style>
+    </footer>
+  );
+}

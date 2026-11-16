@@ -1,0 +1,13 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#F7E6DF"/>
+      <stop offset="100%" stop-color="#F2D5CB"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="610" cy="390" r="240" fill="rgba(100,31,53,0.10)"/>
+  <rect x="260" y="200" width="700" height="500" rx="28" fill="rgba(255,255,255,0.18)" stroke="rgba(184,149,85,0.7)"/>
+  <text x="600" y="470" text-anchor="middle" font-family="Georgia, serif" font-size="46" fill="#641F35">Couple Photo</text>
+  <text x="600" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#3B1225">Replace with your final portrait</text>
+</svg>

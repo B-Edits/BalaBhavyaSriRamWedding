@@ -1,0 +1,6 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F8EEE9"/>
+  <rect x="150" y="120" width="900" height="660" rx="26" fill="rgba(255,255,255,0.12)" stroke="#B89555" stroke-width="2"/>
+  <text x="600" y="430" text-anchor="middle" font-family="Georgia, serif" font-size="46" fill="#641F35">Gallery Image 6</text>
+  <text x="600" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#3B1225">Replace with your final wedding gallery shot</text>
+</svg>
