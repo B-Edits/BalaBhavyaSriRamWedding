@@ -1,3 +1,5 @@
+import './globals.css';
+
 export const metadata = {
   title: 'Bala Bhavya & Sri Ram | Wedding Invitation',
   description: 'A premium digital wedding invitation for Bala Bhavya and Sri Ram.',
